@@ -1,23 +1,8 @@
 #!/usr/bin/env python3
 # -+-coding: utf-8 -+-
 
-# --------------------------------------------
-# Authors: Frank Boers INM4-NIDS
-#          <f.boers@fz-juelich.de> 
-# --------------------------------------------
-# Date: 28.11.23
-# --------------------------------------------
-# License: BSD (3-clause)
-# --------------------------------------------
-# Updates
-# --------------------------------------------
-
 import sys,os
 import multiprocessing as mp
-
-from contextlib import contextmanager
-from concurrent import futures
-TPE = futures.ThreadPoolExecutor(max_workers=1)
 
 from time import time,sleep
 import numpy as np
